@@ -1,0 +1,108 @@
+h1 {
+    padding: 5%;
+    font-family: Helvetica;
+    font-size: 36px;
+    color: #243744;
+    text-align: center;
+  }
+
+  
+h4 {
+  margin-bottom: 0;
+  background-color: #05ffb0;
+
+}
+
+
+
+.copyright {
+  font-family: Arial;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.card {
+  position: relative;
+  background-color: aqua;
+ border-color: #232323;
+  height: 150px;
+  width: 125px;
+  transform-style: preserve-3d;
+  transition: transform 500ms ease-in-out;
+
+
+}
+
+.card div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+.cardBack {
+  background-color: aqua;
+  border-color: #232323;
+  height: 150px;
+  width: 125px;
+}
+
+.cardFront {
+  background-color: azure;
+  border-color: #232323;
+height: 150px;
+  width: 125px;
+}
+        
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  margin: 40px;
+  justify-content: center;
+  perspective: 500px;
+
+}
+
+.game-info-container {
+  grid-column: 1 / -1;
+}
+        
+
+  p {
+    color: #4b4b4b;
+    font-family: Helvetica;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.1em;
+    margin-bottom: 22px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .intro {
+    font-size: 12px;
+    color: #549eb9;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: #549eb9;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  body {
+      margin: 0;
+      background: radical-gradient( yellow)
+  }
